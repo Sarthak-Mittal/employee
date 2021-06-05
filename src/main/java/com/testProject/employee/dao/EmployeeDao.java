@@ -1,4 +1,4 @@
-package com.testProject.employee.service;
+package com.testProject.employee.dao;
 
 import java.util.List;
 

@@ -1,13 +1,13 @@
-package com.testProject.employee.service;
+package com.testProject.employee.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 
 import com.testProject.employee.model.Employee;
 
-@Service
+@Repository
 public class EmployeeDaoImpl implements EmployeeDao{
 
 	

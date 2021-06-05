@@ -14,17 +14,17 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.testProject.employee.model.Employee;
-import com.testProject.employee.service.EmployeeDaoImpl;
+import com.testProject.employee.service.EmployeeService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
-@Api(value="Employee Resources", description="")
+@Api(value="Employee Resources")
 public class EmployeeController {
 
 	@Autowired
-	private EmployeeDaoImpl employees;
+	private EmployeeService employees;
 	
 
 	@ApiOperation(value="Get all the employees available")
